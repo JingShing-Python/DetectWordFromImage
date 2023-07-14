@@ -13,5 +13,5 @@ def detect_text(image_path, lang='eng'):
     print(text)
 
 if __name__ == "__main__":
-    image_path = '1.png'
+    image_path = input("enter the image path: ")
     detect_text(image_path)
